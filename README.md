@@ -40,4 +40,11 @@ display: inline-block; / display: inline; - organizar em linha
   
 position: absolute; >> set an objetc direct in the body, overwriting other divisions, or set the father as relative to move him inside the div. using top,rigth,left and bottom;
 
+
+
 z-index: 100 adjust the Z axis, the overwriting position. to use this command you need a position(relative,absolute...)
+
+
+BACKGROUND(use position relative on father div)
+background-size: cover;  Cobrir toda a area com o background
+background-attachment: fixed;  Efeito de imagem parada no scroll down (ITD site effect)
