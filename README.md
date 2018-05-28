@@ -11,7 +11,10 @@ negrito/bold: font-weight: bold;
 cor do texto: color: white;
 fonte: font-family: 'nome da fonte'
 font-style: 'oblique', 'italic'...
-
+text-transform: capitalize(todas as primeiras letras Maiuscula) uppercase(todas Maiusculas) lowercase(todas minusculas)
+text-indent: 10px; adiciona uma Margem antes do texto;
+text-shadow: 10px 10px 2px black; adiciona uma sombra no angulo x,y indicado. OBS: o ultimo valor se refere ao nivel de blur da sombra
+user-select: none; Nao deixe o usuario copiar texto do site
 -Image style
 opacity: 0.3;
 
@@ -29,6 +32,10 @@ div~p = seleciona o p que seja irmao da div "nest"
 
 LINKS
 text-decoration: none; tirar o sublinhado dos links.
+a { color: black;} tirar a cor azul dos links pelo CSS trocando para preto.
+text-decoration-Line: overline; troca o sublinhado para parte de cima do link
+text-decoration-style: dotted,dashed...  Muda o estilo do sublinhado.
+
 
 
 POSITION
