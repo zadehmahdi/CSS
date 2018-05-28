@@ -1,0 +1,53 @@
+.box{
+	height: 100px;
+	width: 100px;
+	background: red;
+	/*margin: 5px;*/
+	display: inline-block;
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 10px;
+
+
+}
+#id2{
+	
+
+}
+.parent{
+	
+	display: inline-block;
+	position: relative;
+
+}
+
+#id1{
+	position: absolute;
+	z-index: 400;
+
+
+}
+
+
+#id2{
+	background: green;
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	z-index: 300;
+
+}
+
+#id3{
+position: absolute;
+	top: 60px;
+	left: 60px;
+	z-index: 200;
+}
+
+#id4{
+position: absolute;
+	top: 90px;
+	left: 90px;
+	z-index: 100;
+}

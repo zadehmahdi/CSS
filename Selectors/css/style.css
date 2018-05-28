@@ -1,0 +1,57 @@
+.grandpa>.child{
+	font-size: 1.5em;
+	padding: 2px;
+	color: red;
+}
+
+.grandpa.child{
+	font-size: 1.5em;
+	padding: 2px;
+	color: purple;
+}
+
+article p:first-of-type{
+	color: red;
+}
+
+article p:nth-of-type(odd){
+	color: #ff5030;
+	font-weight: bolder;
+}
+
+.wrapper{
+	overflow: hidden;
+}
+
+.box{
+	width: 20px;
+	height: 20px;
+	border: 1px solid red;
+	float: left;
+	padding: 20px;
+}
+
+.box:nth-child(2n+3){
+	background: tomato;
+}
+
+p:before{
+	content: "'";
+}
+
+p:after{
+	content: "'";
+
+}
+blockquote{
+	font-style: italic;
+	color: gray;
+
+}
+blockquote:before{
+	content: "'"
+}
+
+blockquote:after{
+	content: "'"
+}

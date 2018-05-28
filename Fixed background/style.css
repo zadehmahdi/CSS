@@ -1,0 +1,80 @@
+*{
+	margin: 0 5%;
+}
+
+.containerTop {
+	position: relative;
+	top:42%;
+	text-align: center;
+	color: tomato;
+	font-family: Arial;
+	font-size: 4em;
+}
+/*alternative 1*/
+.background{
+	height: 70vh;
+	/* width: 200px; DO NOT USE, try after attachment */
+ 	 background-color: grey; 	
+     background: linear-gradient(rgba(0,50,100,1), 
+		        rgba(0,50,100,0.1)), url('image.jpg');
+	 background-repeat:no-repeat; 
+/* 	top | right | bottom | left or top right
+								(20px_ top will be auto align)
+								(20px 20px will be left and top)
+								(50% 50%;) */
+	 background-position: top; 
+	/* fixed relative to viewport, not its container. */
+	 background-attachment:  fixed; 
+	
+	/* 100% may not work all the time, it will change based on image size */
+	/* background-size: 100%; */
+	
+	/* width and height is not best practice */
+	/* background-size: 100% 100%; */ 
+
+	/* you will lost some part of immage */
+	background-size: cover;  
+}
+
+
+/*alternative 2*/
+/* if background-size is inside the shorthand it must be after background position following with /
+	background: blue url(image.png) no-repeat fixed 0px 0px / cover; */
+/* 	if you are not using background-position property, use background-cover in the next line */
+/* .background{
+	height: 400px;
+	background: grey url('image1.jpg') no-repeat fixed top / cover;
+} */
+
+/*alternative1*/
+.imagePart{
+	background: linear-gradient(rgba(0,120,180,1), 
+		        rgba(0,120,180,0.1)),
+				url('simon-migaj-452354-unsplash.jpg') no-repeat;
+				
+}
+
+p{
+	padding: 20px;
+	color: white;
+	font-size: 2em;
+}
+
+.content{
+	/* background: rgba(0,120,180,0.5); */
+	height: 100%;
+	color:white;
+	padding:20px; 
+	font-size: 1.5em;
+	text-align: justify;
+}
+
+.entryBox{
+	background-color: lightblue;
+	padding: 50px; 
+}
+.entryBox p{
+	text-align:  center;
+	font-family: Rockwell;
+	font-size: 1.2em;
+}

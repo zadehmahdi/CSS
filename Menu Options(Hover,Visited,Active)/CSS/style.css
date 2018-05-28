@@ -1,0 +1,46 @@
+h1.intro{
+	color: blue;
+}
+p.important{
+	color: green;
+}
+
+h1, h2{
+	background-color: purple;
+	border-bottom: 1px solid black;
+}
+
+p{
+
+}
+
+a:link{
+	color: green;
+	background-color: transparent;
+	text-decoration: none;
+}
+a:hover{
+	color: black;
+	background-color: white;
+	text-decoration: none;
+}
+
+
+a:visited{
+	color: pink;
+	background-color: transparent;
+	text-decoration: none;
+}
+a:active{
+	color: yellow;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+/*a{
+	text-decoration: none;
+	background: #f1f1f1;
+	color: white;
+	padding: 5px;
+	font-size:20px;
+}*/

@@ -1,0 +1,10 @@
+*{
+	margin: 0 5%;
+}
+
+.containerTop{
+	position: relative;
+	top: 30%;
+	text-align: center  ;
+	background-attachment: fixed;
+}

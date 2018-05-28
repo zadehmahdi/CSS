@@ -1,0 +1,18 @@
+
+
+div{
+background: lightgray;	
+width: 200px;
+margin:0 auto;
+text-align: center;
+padding: 100px;
+
+}
+
+.border{
+	box-sizing: content-box;
+	width: 200px;
+	height: 100px;
+	padding: 30px;
+	border: 10px solid blue;
+}

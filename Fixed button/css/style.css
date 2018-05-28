@@ -1,0 +1,12 @@
+
+
+.newBox{
+	height: 50px;
+	width: 50px;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	background: purple;
+	opacity: 0.5;
+	
+}
