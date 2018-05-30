@@ -29,12 +29,17 @@ div~p = seleciona o p que seja irmao da div "nest"
 .p:nth-child(3n+1){} seleciona as tag's p de 3 em 3 comecando do 1
 .p:nth-of-type(2){} seleciona o segundo elemento da classe p
 .box:not(#id2){}  select all box classes except the one with id"id2"
+.p:after{ " " } inserir algo depois do conteudo de uma classe selecionada
+.p:before{ " " } inserir algo antes do conteudo de uma classe selecionada
 
 LINKS
 text-decoration: none; tirar o sublinhado dos links.
 a { color: black;} tirar a cor azul dos links pelo CSS trocando para preto.
 text-decoration-Line: overline; troca o sublinhado para parte de cima do link
 text-decoration-style: dotted,dashed...  Muda o estilo do sublinhado.
+
+BOX
+box-sizing: border-box;  muda um conteudo dentro de uma box usando Margin Border Padding
 
 
 
@@ -46,11 +51,8 @@ display: inline-block; / display: inline; - organizar em linha
 	left: 10px;
   
 position: absolute; >> set an objetc direct in the body, overwriting other divisions, or set the father as relative to move him inside the div. using top,rigth,left and bottom;
-
-
-
 z-index: 100 adjust the Z axis, the overwriting position. to use this command you need a position(relative,absolute...)
-
+display: inline-block;  posiciona um conteudo em linha.
 
 BACKGROUND(use position relative on father div)
 background-size: cover;  Cobrir toda a area com o background
