@@ -1,0 +1,71 @@
+
+
+body{
+	background-image: url("../image/headerB.jpg");
+	background-attachment: fixed;
+	height: 100%; 
+	width: 100%; 
+	background-repeat: repeat-y;
+	background-position: center;
+
+
+}
+
+p{
+	max-height: 300px;
+	max-width: 500px;
+	overflow: hidden;
+}
+
+h2{
+	background: gray;
+	font-family: 'Bowlby One SC', cursive;
+}
+
+
+.simage{
+	float: right;
+
+}
+ul{
+	list-style-type: none;
+	display: inline-block;
+
+}
+li{
+	display: inline-block;
+}
+a:hover{
+	background: orange;
+	border-radius: 5px;
+
+
+}
+.simage{
+	width: 640px;
+	height: 360px;
+}
+
+/* FOR SOME REASON THIS IS NOT WORKING */
+/* @media screen and (max-width: 90px){
+    .simage li{
+        width: 46%;
+    }
+}
+
+
+@media screen and (max-width: 576px){
+    .simage li{
+        width: 92%;
+    } */
+
+
+.foot{	
+	position: fixed;
+	top: 98%;
+	width: 100%;
+	margin-bottom: 0px;
+	background: black;
+	text-align: center;
+	color: white;
+}
