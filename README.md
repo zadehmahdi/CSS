@@ -57,3 +57,7 @@ display: inline-block;  posiciona um conteudo em linha.
 BACKGROUND(use position relative on father div)
 background-size: cover;  Cobrir toda a area com o background
 background-attachment: fixed;  Efeito de imagem parada no scroll down (ITD site effect)
+
+
+LIST
+list-style-type: none; Remover marcadores da lista
