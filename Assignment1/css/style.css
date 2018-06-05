@@ -1,0 +1,138 @@
+:root{
+	--deeppurple: #a626b5;
+	--skyblue: #247996;
+	--clockworkorange: #D67F33;
+	--grassgreen: #87AD37;
+	--mariored: #AD151E;
+}
+
+*{
+	margin: 0px;
+}
+
+.logo{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100px;
+	width: 100px;
+	opacity: 0.4;
+}
+
+.header{
+	height: 40vh;
+	width: 100%;
+	background-image: url('../image/headerbg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1{
+	text-align: center;
+	font-family: 'Bowlby One SC', cursive;
+	color: var(--mariored);
+	line-height: 40vh;
+	font-size: 5em;
+
+}
+
+.lang{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.universe{
+	max-height:300px;
+	max-width: 400px;
+	border: 5px solid white;
+	box-shadow: 2px 2px 2px 2px black;
+	margin-top: 100px;
+	
+}
+
+.aboutSection{
+	text-align: justify;
+	max-width: 400px;
+	max-height: 600px;
+	overflow: hidden;
+	margin-top: 100px;
+	
+
+}
+
+.aboutbg{
+	width: 100%;
+	height: 80vh;
+	background-image: url('../image/bricks.jpg');
+	background-attachment: fixed;
+	color: var(--deeppurple);
+	text-shadow: 2px 2px white;
+	margin-top: 100px;
+
+
+}
+
+h2{
+	text-align: center;
+	font-size: 5em;
+	line-height:80vh;
+	font-family: 'Bowlby One SC', cursive;
+}
+
+#home{
+	width: ;
+	background-image: url('../image/smoke.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	background-attachment: fixed;
+}
+
+.homeSection p{
+	margin-top: 100px;
+	box-sizing: border-box;
+	padding: 30px;
+	max-height: 500px;
+	max-width: 400px;
+	overflow: hidden;
+	border: solid 2px black;
+
+}
+
+.productsbg{
+	margin-top: 200px;
+	width: 100%;
+	height: 80vh;
+	background-image: url('../image/products.jpg');
+	background-attachment: fixed;
+	color: var(--clockworkorange);
+	text-shadow: 2px 2px white;
+
+}
+
+
+
+.productImage{
+	height: 150px;
+	width: 150px;
+}
+
+.contactbg{
+	margin-top: 200px;
+	width: 100%;
+	height: 80vh;
+	background-image: url('../image/contact.jpg');
+	background-attachment: fixed;
+	color: var(--grassgreen);
+	text-shadow: 2px 2px white;
+	background-position: center;
+
+}
+
+.formBox{
+	margin: 10px;
+}
+
+.checked{
+	border: 5px solid green;
+}
