@@ -1,0 +1,75 @@
+*{
+	font-family: 'Cabin', sans-serif;
+}
+
+.modalButton{
+	background: darkgreen;
+	color: white;
+	padding: 10px;
+	transition: 0.5s;
+}
+
+.modalParent{
+	display: none;
+	background: rgba(0, 0, 0, 0.9);
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	margin: 0;
+	z-index: 100;
+
+	
+
+}
+
+.modalButton:hover{
+	background: white;
+	color: darkgreen;
+}
+
+.closeButton{
+float: right;
+margin-right: 5px;
+margin-top: 0px;
+font-size: 2em;
+}
+
+
+.closeButton:hover{
+
+cursor: pointer;
+
+}
+
+.modalChild{
+	position: relative;
+	top: 100px;
+	background: lightblue;
+	border: 3px dashed green;
+	box-sizing: border-box;
+	padding: 30px;
+	margin: 50px;
+
+}
+
+.theBall{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	border: 1px solid black;
+	background: red;
+	animation-name: ball;
+	animation-duration: 4s;
+	position: relative;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+
+}
+
+@keyframes ball {
+    from { left:0px; }
+    to { left:400px;}
+}
