@@ -1,0 +1,115 @@
+.logo{
+	height: 50px;
+	width: 50px;
+	margin-right: 5px;
+}
+
+:root{
+	--deeppurple: #a626b5;
+	--skyblue: #247996;
+	--clockworkorange: #D67F33;
+	--grassgreen: #87AD37;
+	--mariored: #AD151E;
+}
+
+.home{
+	background-image: url('../image/bricks.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+	height: 100vh;
+	width: 100%;
+	z-index: 50;
+}
+
+h1{
+	color: skyblue;
+	line-height: 100vh;
+	text-align: center;
+	font-size: 6em;
+	text-shadow: 3px 3px black;
+}
+
+#shots{
+	
+	/* margin-top: 200px; */
+	
+	
+}
+h2{
+	font-size: 3em;
+	text-align: center;
+	line-height: 400px;
+
+}
+
+@keyframes color {
+    0%   {background-color: white;}
+    100% {background-color: rgba(0, 0, 0, 0.8);}
+}
+
+.slideButton{
+	background: gray;
+	width: 60px;
+	height: 60px;
+	border: solid 1px black;
+	margin-top: 15% ;
+
+
+
+}
+
+.slideButton:hover{
+	animation-name: color;
+	animation-duration: 1s;
+	
+
+}
+
+#sub, .sub{
+	color:  white;
+	background: rgba(0, 0, 0, 0.8);
+	padding: 10px;
+
+
+}
+
+body{
+background-image: url('../image/initialBackground.jpg');
+background-attachment: fixed;
+background-repeat: repeat-y;
+background-size: cover;
+z-index: 100;
+
+}
+
+div{
+	background: #f2f2f2;
+}
+
+footer{
+	position: absolute;
+	bottom: -2532px;
+	left: 0px;
+	text-align: center;
+	padding: 10px;
+	background: black;
+	color: white;
+	width: 100%;
+	margin: 0px;
+
+}
+
+#resources{
+	padding-bottom: 50px;
+}
+
+.git{
+	height: 120px;
+	width: 120px;
+	margin-left: 50px;
+	cursor: pointer;
+	margin-bottom: 100px;
+
+
+}
